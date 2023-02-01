@@ -92,9 +92,9 @@ body {
 }
 .contactButton:hover {
     text-decoration: none;
-    background-color: #fff;
-    color: #2E2725;
-    border: 3px solid #fff;
+    background-color: #2E2725;
+    color: #FFC300;
+    border: 3px solid #2E2725;
     transition: .5s;
 }
 .serviceHeader {
@@ -199,6 +199,24 @@ body {
 }
 .contactForm {
     padding: 0 30rem 5rem;
+}
+.contactForm .btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 3px solid #FFC300;
+    color: #2E2725;
+    background-color: #FFC300;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px; 
+    border-radius: 5px;
+}
+.contactForm .btn:hover {
+    text-decoration: none;
+    background-color: #2E2725;
+    color: #FFC300;
+    border: 3px solid #2E2725;
+    transition: .5s;
 }
 
 
