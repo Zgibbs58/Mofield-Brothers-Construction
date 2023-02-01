@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    overflow-x: hidden;
+    
+}
+@media only screen and (max-width: 900px) {
+    .hero {
+        background-image: url(/img/headerImageMobile.jpg) !important;
+    }
+    .row .aboutImgDiv {
+        text-align: center !important;
+        vertical-align: bottom !important;
+        padding-top: 2rem;
+    }
+    .aboutImage {
+        padding: 0 !important;
+    }
+    .aboutCopy {
+        padding: 0 3rem !important;
+    }
+    .carousel {
+        padding: 3rem !important;
+    }
+    #testimonials {
+        padding: 1.5rem !important;
+    }
+    .contactForm {
+        padding: 2rem !important;
+    }
+  }
+  .navbar {
+    transition: .75s;
+  }
+  .navbarTransition {
+    background-color: #000;
+}
+  .navbar li a {
+    color: #fff;
+    font-size: medium;
+    font-weight: 400;
+}
+.navbar li a:hover {
+    color: #FFC300;
+    transition: .5s;
+}
+.offcanvas {
+    background-color: #2E2725;
+    color: #fff;
+}
+.navbar-toggler {
+    border: 0;
+}
+.navbar .logo {
+    max-width: 20%;
+    min-width: 175px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.btn-close {
+    background-image: url(img/icons/xIcon.png);
+}
+.hero {
+    background-color: rgb(139, 139, 139);
+    background-image: url(/img/trial.jpg);
+    color: rgb(255, 255, 255);
+    padding: 200px 0;
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;/*blends the background image with background color*/
+}
+.hero .container {
+    text-align: center;
+    margin-top: 1rem;
+}
+.hero .container .header {
+    font-weight: 700;
+}
+.hero .container .paddingButton {
+    margin-bottom: 40px;
+}
+.hero .contactButton {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 3px solid #FFC300;
+    color: #2E2725;
+    background-color: #FFC300;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px; 
+    border-radius: 5px;
+}
+.contactButton:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #2E2725;
+    border: 3px solid #fff;
+    transition: .5s;
+}
+.serviceHeader {
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.card-group {
+    padding: 60px 30px 0;
+}
+.card-group .card{
+    border: 0;
+    border-radius: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    color: #2E2725;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card img {
+    padding: .5rem;
+}
+.cardSpacing {
+    padding: 0 15px;
+}
+.about {
+    color: #2E2725;
+    padding-top: 4rem;
+    margin: 0;
+}
+.row .aboutImage {
+    max-width: 100%;
+    height: 80%;
+    padding: 5rem 0 0 5rem ;
+}
+.aboutCopy {
+    padding: 8rem 8rem 8rem 5rem;
+}
+#testimonials {
+    padding: 3rem;
+}
+.testimonials {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #2E2725;
+    padding: 2rem 0 0;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.carousel {
+    background-color: #2E2725;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 7rem 4rem 7rem;
+    font-weight: 200;
+}
+.carousel .quote {
+    font-weight: 500;
+    font-size: x-large;
+    padding-top: 1rem;
+}
+.carousel-control-next, .carousel-control-prev {
+    bottom: 90px;
+    width: 8%;
+}
+.projectsHeader {
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.galleryContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img {
+    width: 100%;
+}
+#contact {
+    padding-top: 1rem;
+    padding-bottom: 50px;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.contactForm {
+    padding: 0 30rem 5rem;
+}
+
+
