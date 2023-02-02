@@ -5,7 +5,7 @@ body {
     }
 @media only screen and (max-width: 900px) {
     .hero {
-        background-image: url(/img/headerImageMobile.jpg) !important;
+        background-image: url(img/headerImageMobile.jpg) !important;
     }
     .row .aboutImgDiv {
         text-align: center !important;
@@ -61,7 +61,7 @@ body {
 }
 .hero {
     background-color: rgb(139, 139, 139);
-    background-image: url(/img/trial.jpg);
+    background-image: url(img/trial.jpg);
     color: rgb(255, 255, 255);
     padding: 200px 0;
     background-size: cover;
