@@ -178,7 +178,11 @@
         <h3 id="contact">Contact</h3>
         <div class="contactForm text-center">
             <form class="row g-3" action="https://formsubmit.co/0a1334d63217e6352473d5e2ac42ed62" method="POST">
-                <input type="hidden" name="_template" value="table">
+                <!--Honeypot-->
+                <input type="text" name="_honey" style="display: none;">
+                <!--Disable Captcha-->
+                <input type="hidden" name="_captcha" value="false">
+                <!--Thanks Page-->
                 <input type="hidden" name="_next" value="https://zgibbs58.github.io/Mofield-Brothers-Construction/Mofield_Brothers_Final/thanks.html">
                 <div class="row">
                     <div class=" form-floating mb-3">
