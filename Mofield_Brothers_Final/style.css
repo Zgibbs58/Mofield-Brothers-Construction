@@ -13,8 +13,7 @@ body {
         padding-top: 2rem;
     }
     .aboutImage {
-        padding: .5rem !important;
-        width: 300px;
+        padding: 0 !important;
     }
     .aboutCopy {
         padding: 0 3rem !important;
