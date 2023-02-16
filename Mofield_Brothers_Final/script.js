@@ -24,4 +24,10 @@ for(var i = 0; i < navItem.length; i++) {
   })(i);
 }
 
+lightbox.option({
+    'resizeDuration': 500,
+    'alwaysShowNavOnTouchDevices': true,
+    'showImageNumberLabel':true
+  })
+
 
