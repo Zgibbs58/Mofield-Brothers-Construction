@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     }
 @media only screen and (max-width: 1300px) {
+    
      
     }
 @media only screen and (max-width: 900px) {
@@ -26,6 +27,10 @@ body {
     }
     #testimonials {
         padding: 1.5rem !important;
+    }
+    .galleryContainer .gallery{
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+        grid-gap: 20px;
     }
     
   }
@@ -173,22 +178,19 @@ body {
     font-size: xx-large;
 }
 .galleryContainer {
-    width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 8%;
+    padding: 4rem 8%;
 }
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
 }
 .gallery img {
     width: 100%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
 }
 #contact {
     padding-top: 1rem;
