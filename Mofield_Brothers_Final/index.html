@@ -21,12 +21,12 @@
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img class="logo" src="img/mofieldLogoWhite.png" alt="Mofield Brothers" width="150px" height="40px">
+                    <img class="logo" src="img/mofieldLogoWhite.png" alt="Mofield Brothers" >
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLg" aria-controls="offcanvasNavbarLg">
                 <a class="collapseMenu" href="#navbarSupportedContent"><img src="img/icons/menuIcon copy.png" alt="menu"></a>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1"                   id="offcanvasNavbarLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLg" aria-labelledby="navbarOffcanvasLgLabel">
                 <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLg">Menu</h5>
                 <button id="closeBtn" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -42,9 +42,9 @@
                     <li class="nav-item">
                         <a id="nav-item3" class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a id="nav-item4" class="nav-link" href="#testimonials">Stats</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a id="nav-item5" class="nav-link" href="#gallery">Gallery</a>
                     </li>
@@ -58,13 +58,15 @@
         </nav>
       
         <div id="header" class="hero">
-            <div class="container">
+            <div class="container align-self-center ">
                 <h2 class="header">Family Owned & Operated</h2>
                 <h4 class="paddingButton header">since 1961</h4>
                 <a class="contactButton" href="#contact">CONTACT US</a>
             </div>
 
         </div>
+
+        
 
         <h3 id="services" class="serviceHeader">Our Services</h3>
         <div class="card-group">
@@ -73,7 +75,7 @@
                     <h3 class="card-title">Water and Sewer Lines</h3>
                     <p class="card-text"> We have experience with residential jobs, all the way up to large scale utility projects.</p>
                 </div>
-                    <img src="img/teamWork.jpg" class="card-img-top" alt="...">
+                    <a href="img/teamWork.jpg" data-lightbox="cardImg" data-title="Water and Sewer Line Crew"><img src="img/teamWork.jpg" class="card-img-top" alt="Water and Sewer Line Crew"></a>
             </div>
             <div class="cardSpacing"></div>
             <div class="card">
@@ -81,7 +83,8 @@
                     <h3 class="card-title">Excavation</h3>
                     <p class="card-text">We are well equipped for land excavation, leveling, rock hammering, and brush clearing.</p>
                 </div>
-            <img src="img/excavation.jpg" class="card-img-top" alt="...">
+                <a href="img/excavation.jpg" data-lightbox="cardImg" data-title="Excavation Crew"><img src="img/excavation.jpg" class="card-img-top" alt="Excavation Team"></a>
+            
             </div>
             <div class="cardSpacing"></div>
             <div class="card">
@@ -89,7 +92,7 @@
                     <h3 class="card-title">Directional Drilling</h3>
                     <p class="card-text">We can drill under driveways, highways, rivers, and more.</p>
                 </div>
-            <img src="img/directionalDrilling.jpg" class="card-img-top" alt="...">
+                <a href="img/directionalDrilling.jpg" data-lightbox="cardImg" data-title="Directional Drill"><img src="img/directionalDrilling.jpg" class="card-img-top" alt="Directional Drill"></a>
             </div>
         </div>
     
@@ -103,14 +106,14 @@
                     <div class=" col-lg-6 aboutCopy">
                         <h1>Mofield Brothers Construction</h1>
                         <br>
-                        <p>Founded in 1961 by John and Trigger Mofield, Mofield Brothers Construction Company is now owned by John's son Mike. Mike runs Mofield Brothers with the help of his two sons Martin and Judson Mofield. With over 75 years of experience in the construction industry, they are a trusted, well known company in the Middle Tennessee area. 
+                        <p>Founded in 1961 by John and Trigger Mofield, Mofield Brothers Construction Company is now owned by John's son Mike. Mike runs Mofield Brothers with the help of his two sons, Martin and Judson Mofield. With over 75 years of experience in the construction industry, we are a trusted, well known company in the Middle Tennessee area. 
                         </p>
-                        <p>All three generations have farmed their entire life and have a passion for working the land. They have done it all from laborers, farmers, machine operators, and business leaders. Mofield Brothers is well equipped to handle your next job.</p>
+                        <p>We have three generations of farming experience and a lifetime passion for working the land we were born on. We have been laborers, farmers, machine operators, and business leaders. Mofield Brothers Construction Company is well equipped to handle your next job.</p>
                     </div>
                 </div>
         </div>
 
-        <div id="testimonials"></div>
+        <!-- <div id="testimonials"></div>
         <h2 class="testimonials">Our Stats</h2>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -121,15 +124,15 @@
             <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
                 <p class="d-block w-100 quote">Completed 64 jobs in Tennessee and Kentucky.</p>
-                <p><!--Tom Collins--></p>
+                <p>Tom Collins</p>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <p class="d-block w-100 quote">Laid over 500 miles of water and sewer lines.</p>
-                <p><!--Johnny Walker--></p>
+                <p>Johnny Walker</p>
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <p class="d-block w-100 quote">Hauled over 1,500 tons of Zinc in the past year.</p>
-                <p><!--Arnold Palmer--></p>
+                <p>Arnold Palmer</p>
             </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -140,7 +143,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div> -->
     
 
         <h2 id="gallery" class="projectsHeader">Projects & Equipment</h2>
@@ -193,25 +196,25 @@
                 <div class="row g-0">
                     <div class=" form-floating mb-3">
                         <input type="text" name="name" class="form-control" id="floatingFirstName" placeholder="firstName" required>
-                        <label for="floatingPassword">Name</label>
+                        <label for="floatingPassword">Name<span>*</span></label>
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class=" form-floating mb-3">
                         <input type="email" name="email" class="form-control" id="floatingInput" placeholder="Email Address" required>
-                        <label for="floatingInput">Email address</label>
+                        <label for="floatingInput">Email address<span>*</span></label>
                     </div>
                 </div>
                 <div class="row g-0">        
                     <div class="form-floating">
                         <textarea name="comments" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
+                        <label for="floatingTextarea2">Comments<span>*</span></label>
                       </div>
                     
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 mt-0">
                     <input type="hidden" name="_next" value="https://zgibbs58.github.io/Mofield-Brothers-Construction/Mofield_Brothers_Final/thanks.html">
-                    <button class="btn" type="submit">Submit form</button>
+                    <button class="submitBtn" type="submit">Submit form</button>
                 </div>
             </form>
         </div>
