@@ -19,6 +19,14 @@ body {
     color: #FFC300;
     transition: .5s;
 }
+.offcanvas-body .nav-link{
+    font-size: large;
+    font-weight: 600;
+}
+.offcanvas-header .offcanvas-title {
+    font-size: xx-large;
+    font-weight: 700;
+}
 .offcanvas {
     background-color: #2E2725;
     color: #fff;
@@ -37,12 +45,20 @@ body {
     padding-left: 10px;
 }
 .btn-close {
-    background-image: url(img/icons/xIcon.png);
+    /* background-image: url(img/icons/xIcon.png); */
+    background-image: none;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+}
+.btn-close img {
+    width: 30px;
+    color: white;
 }
 .hero {
     display: grid;
     background-color: rgb(139, 139, 139);
-    background-image: url(img/trial.jpg);
+    background-image: url(img/headerImageFull.jpg);
     color: rgb(255, 255, 255);
     padding: 200px 0;
     background-size: cover;
@@ -53,7 +69,8 @@ body {
     text-align: center;
 }
 .hero .container .header {
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 2.25rem;
 }
 .hero .container .paddingButton {
     margin-bottom: 40px;
@@ -166,7 +183,9 @@ body {
 }
 .gallery {
     display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 100%;
     grid-gap: 30px;
 }
 .gallery img {
@@ -226,9 +245,18 @@ body {
     color: #2E2725;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1080px) {
     .hero {
         background-image: url(img/headerImageMobile.jpg) !important;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .hero .container .header {
+        font-size: 1.6rem;
+    }
+    .offcanvas-body .nav-link{
+        font-size: x-large;
+        font-weight: 600;
     }
     .row .aboutImgDiv {
         text-align: center !important;
@@ -256,8 +284,5 @@ body {
     }
     
   }
-  @media (max-width: 900px) {
-    
-}
   
 
